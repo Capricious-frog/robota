@@ -6,13 +6,14 @@
 Servo ezkerreko_motorra;
 Servo eskuineko_motorra;
 
-void aurrera(int duration);
-void atzera(int duration);
-void eskubira(int duration);
-void ezkerrera(int duration);
-void giratu(int graduak);
+void aurrera(float duration);
+void atzera(float duration);
+void eskubira(float duration);
+void ezkerrera(float duration);
+void giratu( graduak);
 void gelditu();
-void itxaron(int duration);
+void itxaron(float duration);
+void bukatu();
 void hasieratu();
 
 #endif
