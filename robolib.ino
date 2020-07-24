@@ -11,12 +11,12 @@ void gelditu()
   eskuineko_motorra.write(90);
 }
 
-void itxaron(int duration)
+void itxaron(float duration)
 {
-  delay(duration * 1000);
+  delay(duration * 1000.0);
 }
 
-void aurrera(int duration)
+void atzera(float duration)
 {
   ezkerreko_motorra.write(0);
   eskuineko_motorra.write(180);
@@ -24,7 +24,7 @@ void aurrera(int duration)
   gelditu();
 }
 
-void atzera(int duration)
+void aurrera(float duration)
 {
   ezkerreko_motorra.write(180);
   eskuineko_motorra.write(0);
@@ -32,7 +32,7 @@ void atzera(int duration)
   gelditu();
 }
 
-void eskubira(int duration)
+void ezkerrera(float duration)
 {
   ezkerreko_motorra.write(0);
   eskuineko_motorra.write(0);
@@ -40,7 +40,7 @@ void eskubira(int duration)
   gelditu();
 }
 
-void ezkerrera(int duration)
+void eskubira(float duration)
 {
   ezkerreko_motorra.write(180);
   eskuineko_motorra.write(180);
@@ -54,6 +54,10 @@ void giratu(int graduak)
   eskuineko_motorra.write(0);
   itxaron(1);
   gelditu();
+}
+
+void bukatu(){
+  while(true);
 }
 
 void hasieratu()
