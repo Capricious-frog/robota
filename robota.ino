@@ -7,9 +7,24 @@ void setup()
 
 void loop()
 {
-  itxaron(3);
+  /* Komandoak
+   * 
+   * aurrera
+   * atzera
+   * eskubira
+   * ezkerrera
+   * gelditu
+   * itxaron
+   */
   
-  giratu(90);
+  //-----------Kodearen hasiera---------------
+  itxaron(1);
+  aurrera(4);
+  eskubira(0.5);
+  aurrera (3);
+  ezkerrera(0.5);
+  aurrera(11);
+  //-----------Kodearen bukaera---------------
   
-  delay(10); // Delay a little bit to improve simulation performance
+  bukatu();
 }
