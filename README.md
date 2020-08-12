@@ -83,7 +83,7 @@ Para controlar el robot tenemos que mandarle ordenes al arduino, para esto utili
     ezkerrera
     itxaron
 
-Cada instrucción va acompañada con la duración se define entre parentesis despues de esta misma. La duración pueden ser valores enteros o decimales con punto. Para acabar la instruccion ponemos un *;* al final. Por ejemplo para que el robot avance durante 5 segundos lo escribiríamos así:
+Cada instrucción va acompañada con la duración que se define entre parentesis despues de esta misma. La duración pueden ser valores enteros o decimales con punto. Para acabar la instruccion ponemos un *;* al final. Por ejemplo para que el robot avance durante 5 segundos lo escribiríamos así:
 
     aurrera(5);
     
