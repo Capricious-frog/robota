@@ -63,7 +63,7 @@ El programa necesita una librería para controlar los servos y la cual tenemos q
 
 Después de hacer todo esto ya podemos subir el programa al arduino, para esto simplemente lo tenemos que conectar al ordenador con el cable y pulsar el botón de enviar (el botón circular con el icono de una flecha). En el caso de que no detecte el Arduino pulsamos en "Tool", luego le damos a "Port" y seleccionamos el Arduino.
 
-Es recomendable mirar la sección de [configuración](##configuración) ya que es posible que haya que configurar el programa dependiendo de como estén puestos los servos.
+Es recomendable mirar la sección de [**configuración**](##configuración) ya que es posible que haya que configurar el programa dependiendo de como estén puestos los servos.
 
 ## Configuración
 Es posible que los valores de vuestros servos sean distintos a los usados por nosotros o que los servos estén conectados a otra entrada, en estos casos habría que hacer unos cambios. Hacer estos cambios es sencillo y no requiere ningún conocimiento de programación.
