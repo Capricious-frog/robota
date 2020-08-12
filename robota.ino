@@ -16,9 +16,9 @@ void loop()
    * gelditu
    * itxaron
    */
+  itxaron(2);
   
   //-----------Kodearen hasiera---------------
-  itxaron(1);
   aurrera(4);
   eskubira(0.5);
   aurrera (3);
