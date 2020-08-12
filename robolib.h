@@ -10,7 +10,6 @@ void aurrera(float duration);
 void atzera(float duration);
 void eskubira(float duration);
 void ezkerrera(float duration);
-void giratu( graduak);
 void gelditu();
 void itxaron(float duration);
 void bukatu();
