@@ -19,11 +19,15 @@ void loop()
   itxaron(2);
   
   //-----------Kodearen hasiera---------------
-  aurrera(4);
-  eskubira(0.5);
-  aurrera (3);
-  ezkerrera(0.5);
-  aurrera(11);
+  
+  
+  
+  
+  // Idatzi zure kodea hemen
+  
+  
+  
+  
   //-----------Kodearen bukaera---------------
   
   bukatu();
