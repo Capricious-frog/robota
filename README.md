@@ -1,11 +1,20 @@
 # Robota
 
 ## Requisitos
+
+Estos son los materiales que hacen falta:
 * Un microcontrolador Arduino UNO
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * 2 servos
+* Cables
+* Placa de pruebas
+* Chasis
+* Ruedas
+* Bateria de 9V
 
-## Uso
+Es recomendable montar los componentes en un chasis ya sea impreso en 3D o contruido con otros materiales como madera. Para evitar el soldar los cables se puede utilizar una placa de pruebas (o breadboard en inglés) para hacer las conexiones entre los cables. Tambien seria ideal el añadir una pila de 9V para que el robot se mueva sin necesidad de estar conectado a un ordenador.
+
+## Instalación
 
 ### Windows
 Para usar el código primero hay que descargar el repositorio desde [aquí](https://github.com/Julortiz/robota/archive/master.zip).
@@ -64,6 +73,29 @@ El programa necesita una librería para controlar los servos y la cual tenemos q
 Después de hacer todo esto ya podemos subir el programa al arduino, para esto simplemente lo tenemos que conectar al ordenador con el cable y pulsar el botón de enviar (el botón circular con el icono de una flecha). En el caso de que no detecte el Arduino pulsamos en "Tool", luego le damos a "Port" y seleccionamos el Arduino.
 
 Es recomendable mirar la sección de [**configuración**](##configuración) ya que es posible que haya que configurar el programa dependiendo de como estén puestos los servos.
+
+## Uso
+Para controlar el robot tenemos que mandarle ordenes al arduino, para esto utilizamos estos comandos predefinidos:
+
+    aurrera
+    atzera
+    eskubira
+    ezkerrera
+    itxaron
+
+Cada instrucción va acompañada con la duración se define entre parentesis despues de esta misma. La duración pueden ser valores enteros o decimales con punto. Para acabar la instruccion ponemos un *;* al final. Por ejemplo para que el robot avance durante 5 segundos lo escribiríamos así:
+
+    aurrera(5);
+    
+Estos comandos los introducimos en la seccion marcada con los comentarios de "kodearen hasiera" y "kodearen bukaera". Otro ejemplo seria que el robot haga un recorrido parecido al del tayer, para esto tiene que avanzar 5s, girar a la izquierda 0.5s, avanzar 3s, luego que girar a la derecha 0.5s y para acabar avanzar 8s. Esto quedaria asi:
+
+    //-----------Kodearen hasiera---------------
+    aurrera(5);
+    ezkerrera(0.5);
+    aurrera(3);
+    eskubira(0.5);
+    aurrera(8);
+    //-----------Kodearen bukaera---------------
 
 ## Configuración
 Es posible que los valores de vuestros servos sean distintos a los usados por nosotros o que los servos estén conectados a otra entrada, en estos casos habría que hacer unos cambios. Hacer estos cambios es sencillo y no requiere ningún conocimiento de programación.
