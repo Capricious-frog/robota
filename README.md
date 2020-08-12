@@ -17,7 +17,7 @@ Después hay que extraer el archivo comprimido de manera que los archivos *robol
     C://Users/Julortiz/Documents/Arduino/robota/robolib.h
     
 
-Para abrir los archivos primero necesitamos el programa Arduino IDE el cual se puede descargar gratis desde https://www.arduino.cc/en/Main/Software. En la página web bajamos hasta donde pone:
+Para abrir los archivos primero necesitamos el programa Arduino IDE el cual se puede descargar gratis desde https://www.arduino.cc/en/Main/Software. Para descargarlo bajamos hasta donde pone:
 > Download the Arduino IDE
 
 Y para descargar la versión de **Windows** pulsamos en:
