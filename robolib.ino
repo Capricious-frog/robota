@@ -58,14 +58,6 @@ void eskubira(float duration)
   gelditu();
 }
 
-void giratu(int graduak)
-{
-  ezkerreko_motorra.write(atzera_balioa);
-  eskuineko_motorra.write(atzera_balioa);
-  itxaron(1);
-  gelditu();
-}
-
 void bukatu(){
   while(true);
 }
