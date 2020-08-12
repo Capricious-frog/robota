@@ -1,7 +1,7 @@
 # Robota
 
 ## Requisitos
-* Un microcontrolador arduino
+* Un microcontrolador Arduino UNO
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 * 2 servos
 
