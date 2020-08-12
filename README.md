@@ -12,7 +12,7 @@ Estos son los materiales que hacen falta:
 * Ruedas
 * Bateria de 9V
 
-Es recomendable montar los componentes en un chasis ya sea impreso en 3D o contruido con otros materiales como madera. Para evitar el soldar los cables se puede utilizar una placa de pruebas (o breadboard en inglés) para hacer las conexiones entre los cables. Tambien seria ideal el añadir una pila de 9V para que el robot se mueva sin necesidad de estar conectado a un ordenador.
+Para evitar soldar los cables se puede utilizar una placa de pruebas (o breadboard en inglés). Tambien seria ideal el añadir una pila de 9V para que el robot se mueva sin necesidad de estar conectado a un ordenador. El chasis puede se impreso en 3D o construido con materiales de madera u otros.
 
 ## Instalación
 
